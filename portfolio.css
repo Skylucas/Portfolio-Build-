@@ -2,150 +2,61 @@
     box-sizing: border-box;
 }
 
-@media screen and(max-width: 1600px; max-height; px) {
-    body {
-        background-color: #ff0000;
-    }
-}
-
 body {
     margin: 0;
 }
 
-.nav {
-    color: white;
-    padding: 20px 20px;
-    overflow: auto;
+@media screen and (max-width: 500px) {
+    body {
+        background-color: #8b0000;
+    }
 }
 
-
-.nav .contact {
-    float:left;
-    margin-right: 10px;
-}
-
-
-.button {
+nav {
     background-color: #000000;
-    border: none;
-    color: white;
-    position: absolute;
-    outline: none;
-    bottom: 92%;
-    left: 68%;
-    padding: 15px 15px;
-    text-align: center;
+    height: 80px;
+    display: block;
+    padding: 0 15px;
+}
+
+.container {
+    float: right;
+    margin-top: 26px;
+
+}
+
+.container a {
+    color: black;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+    text-align: center;
+    background-color: #8b0000;
     border-radius: 15px;
     box-shadow: 0 9px #999;
-}
-
-}
-
-.button:hover {background-color: #000000}
-
-.button:active {
-    background-color: #000000;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-}
-
-.button2 {
-    background-color: #000000;
-    border: none;
-    color: white;
-    position: absolute;
-    outline: none;
-    bottom: 92%;
-    left: 78%;
-    padding: 15px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
     margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 15px;
-    box-shadow: 0 9px #999;
-}
-
-}
-
-.button2:hover {background-color: #000000}
-
-.button2:active {
-    background-color: #000000;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-}
-
-
-.button3 {
-    background-color: #000000;
-    border: none;
-    color: white;
-    position: absolute;
-    outline: none;
-    bottom: 92%;
-    left: 90%;
     padding: 15px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 15px;
-    box-shadow: 0 9px #999;
 }
 
-.button3:hover {background-color: #000000}
+nav img {
+    float: left;
+    padding-top: 10px;
+}
 
-.button3:active {
+.container a:hover {
+    background-color: #000000
+}
+
+.container a:active {
     background-color: #000000;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
 
 .logo {
-    /*background-image: url("ying_yang.png");  */
+    background-image: url("Images/ying_yang.png");
     height: 120px;
     background-repeat: no-repeat;
 }
 
-nav ul {
-    margin: 0;
-}
-
-nav li {
-    float: left;
-    list-style: none;
-    margin-right: 30px;
-    cursor: pointer;
-}
-
-nav {
-    background-color: #000000;
-    height: 70px;
-}
-
-text {
-    padding: 1px 0;
-    float: right;
-    font-size: 100%;
-}
-
-header li {
-    float: left;
-    list-style: none;
-    margin-right: 30px;
-    font-size: 140%;
-    cursor: pointer;
-}
 
 .footer {
     background-size: cover;
@@ -153,16 +64,16 @@ header li {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #ffffff;
+    background-color: #eeeeee;
     color: #000000;
     text-align: center
 }
 
-.ice {
+/*.ice { */
     /*background-image: url('icebackground.png'); */
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 650px;
+    /*background-repeat: no-repeat; */
+    /*background-size: 100%; */
+    /*height: 650px; */
 }
 
 /*.moving_box { */
@@ -175,20 +86,20 @@ header li {
     /*font-size: 250%;  */
     /*-webkit-transition: width 2s, height 2s, -webkit-transform 2s;    !* Safari *! */
     /*transition: width 2s, height 2s, transform 2s;  */
-}
+/*}*/
 
-.moving_box:hover {
-    -webkit-transform: rotate(280deg); /* Safari */
-    transform: rotate(360deg);
-}
+/*.moving_box:hover {*/
+    /*-webkit-transform: rotate(280deg); !* Safari *!*/
+    /*transform: rotate(360deg);*/
+/*}*/
 
 .icon {
     /*background-image: url('github.png'); */
-    height: 115px;
+    height: 60px;
     background-repeat: no-repeat;
 }
 
-.container {
+.container2 {
     margin: 0 auto;
     overflow: auto;
     width: 100%;
@@ -208,7 +119,7 @@ header li {
 }
 
 .project1 {
-    background-image: url('greybox.png');
+    /*background-image: url('greybox.png'); */
     background-repeat: no-repeat;
     background-size: auto;
     height:200px;
@@ -216,7 +127,7 @@ header li {
 }
 
 .project2 {
-    background-image: url('greybox.png');
+    /*background-image: url('greybox.png');*/
     background-repeat: no-repeat;
     background-size: auto;
     height: 200px;
@@ -224,7 +135,7 @@ header li {
 }
 
 .project3 {
-    background-image: url('greybox.png');
+    /*background-image: url('greybox.png');*/
     background-repeat: no-repeat;
     background-size: auto;
     height: 200px;
@@ -232,7 +143,7 @@ header li {
 }
 
 .project4 {
-    background-image: url('greybox.png');
+    /*background-image: url('greybox.png');*/
     background-repeat: no-repeat;
     background-size: auto;
     height: 200px;
@@ -241,7 +152,7 @@ header li {
 }
 
 .project5 {
-    background-image: url('greybox.png');
+    /*background-image: url('greybox.png');*/
     background-repeat: no-repeat;
     background-size: auto;
     height: 200px;
@@ -249,7 +160,7 @@ header li {
 }
 
 .project6 {
-    background-image: url('greybox.png');
+    /*background-image: url('greybox.png');*/
     background-repeat: no-repeat;
     background-size: auto;
     height: 200px;
