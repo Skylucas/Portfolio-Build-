@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        background-color: #8b0000;
+    }
+}
+
+nav {
+    background-color: #000000;
+    height: 80px;
+    display: block;
+    padding: 0 15px;
+}
+
+.container {
+    float: right;
+    margin-top: 26px;
+
+}
+
+.container a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    background-color: #8b0000;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin: 4px 2px;
+    padding: 15px 15px;
+}
+
+nav img {
+    float: left;
+    padding-top: 10px;
+}
+
+.container a:hover {
+    background-color: #4b4c4f;
+}
+
+.container a:active {
+    background-color: #4b4c4f;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.footer {
+    background-size: cover;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #eeeeee;
+    color: #000000;
+    text-align: center
+}
+
+.ice {
+    /*background-image: url('Images/icebackground.png');   */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 650px;
+}
+
+.mid1 {
+    color: #000000;
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    font-size: 180%;
+}
+
+.mid2 {
+    color: #000000;
+    position: absolute;
+    top: 40%;
+    left: 38%;
+    font-size: 180%;
+}
+
+.icon {
+    /*background-image: url('github.png');  */
+    height: 60px;
+    background-repeat: no-repeat;
+}
