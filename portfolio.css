@@ -7,8 +7,19 @@ body {
 }
 
 @media screen and (max-width: 500px) {
-    body {
-        background-color: #8b0000;
+    .mid-2 {
+        width: 100%;
+        float: left;
+    }
+    .col-4 {
+        width: 100%;
+    }
+
+    .container3 {
+        width: 600px;
+    }
+    .project1 {
+        width: 100%;
     }
 }
 
@@ -69,49 +80,61 @@ nav img {
     text-align: center
 }
 
-/*.ice { */
-    /*background-image: url('icebackground.png'); */
-    /*background-repeat: no-repeat; */
-    /*background-size: 100%; */
-    /*height: 650px; */
+.fantasy {
+    background-image: url('Images/fantasy.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+    height: 100%;
 }
 
-/*.moving_box { */
-    /*width: 1px;  */
-    /*height: 1px;  */
-    /*background: #666666;  */
-    /*position: absolute;   */
-    /*top: 50%;   */
-    /*right: 55%;  */
-    /*font-size: 250%;  */
-    /*-webkit-transition: width 2s, height 2s, -webkit-transform 2s;    !* Safari *! */
-    /*transition: width 2s, height 2s, transform 2s;  */
-/*}*/
+.moving_box {
+    width: 1px;
+    height: 1px;
+    background: #666666;
+    position: absolute;
+    top: 50%;
+    right: 55%;
+    font-size: 250%;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, transform 2s;
+}
 
-/*.moving_box:hover {*/
-    /*-webkit-transform: rotate(280deg); !* Safari *!*/
-    /*transform: rotate(360deg);*/
-/*}*/
+.moving_box:hover {
+    -webkit-transform: rotate(280deg);
+    transform: rotate(360deg);
+}
 
-.icon {
-    /*background-image: url('github.png'); */
-    height: 60px;
-    background-repeat: no-repeat;
+
+.container3 {
+    margin: 0 auto;
+    overflow: auto;
+    width: 800px;
+    position: relative;
+    top: 800px;
+    border-collapse: separate;
+    border-spacing: 15px 50px;
+}
+
+.col-4 {
+    background-color: #8f8f8f;
+    padding: 20px;
 }
 
 .container2 {
     margin: 0 auto;
     overflow: auto;
-    width: 100%;
-    border-collapse: separate;
-    border-spacing: 15px 50px;
-    z-index: 1;
 }
 
-.col-4 {
-    width: 28%;
+.mid-2 {
+    background-color: #808080;
+    color: #ffffff;
+    opacity: 0.4;
+    border-radius: 30px;
+    width: 90%;
     float: left;
-    height: 500px;
+    padding: 60px;
+    font-size: 160%;
 }
 
 .article {
@@ -119,50 +142,27 @@ nav img {
 }
 
 .project1 {
-    /*background-image: url('greybox.png'); */
+    background-image: url('Images/testimage.png');
     background-repeat: no-repeat;
     background-size: auto;
-    height:200px;
-    width: 280px;
-}
-
-.project2 {
-    /*background-image: url('greybox.png');*/
-    background-repeat: no-repeat;
-    background-size: auto;
-    height: 200px;
-    width: 280px;
-}
-
-.project3 {
-    /*background-image: url('greybox.png');*/
-    background-repeat: no-repeat;
-    background-size: auto;
-    height: 200px;
-    width: 280px;
-}
-
-.project4 {
-    /*background-image: url('greybox.png');*/
-    background-repeat: no-repeat;
-    background-size: auto;
-    height: 200px;
-    width: 280px;
+    height: 350px;
+    width: 90%;
 
 }
 
-.project5 {
-    /*background-image: url('greybox.png');*/
-    background-repeat: no-repeat;
-    background-size: auto;
-    height: 200px;
-    width: 280px;
+
+#icons {
+    display: table;
 }
 
-.project6 {
-    /*background-image: url('greybox.png');*/
-    background-repeat: no-repeat;
-    background-size: auto;
-    height: 200px;
-    width: 280px;
+#iconlinks {
+    list-style: none;
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+}
+
+
+.gitHub, .twitter, .email {
+    width: 60%;
 }
