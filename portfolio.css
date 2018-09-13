@@ -42,11 +42,11 @@ nav img {
 }
 
 .container a:hover {
-    background-color: #000000
+    background-color: #4b4c4f;
 }
 
 .container a:active {
-    background-color: #000000;
+    background-color: #4b4c4f;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }

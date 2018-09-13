@@ -8,12 +8,12 @@ body {
 
 @media screen and (max-width: 500px) {
     body {
-        background-color: #8b0000;
+
     }
 }
 
 nav {
-    background-color: #000000;
+    background-color: #eff0f2;
     height: 80px;
     display: block;
     padding: 0 15px;
@@ -31,7 +31,7 @@ nav {
     text-align: center;
     background-color: #8b0000;
     border-radius: 15px;
-    box-shadow: 0 9px #999;
+    box-shadow: 0 9px #000000;
     margin: 4px 2px;
     padding: 15px 15px;
 }
@@ -42,36 +42,17 @@ nav img {
 }
 
 .container a:hover {
-    background-color: #000000
+    background-color: #4b4c4f;
 }
 
 .container a:active {
-    background-color: #000000;
+    background-color: #4b4c4f;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
 
-.logo {
-    /*background-image: url("Images/ying_yang.png");*/
-    /*height: 120px;*/
-    /*background-repeat: no-repeat;*/
-}
-
-}
-
-footer {
-    background-size: cover;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #eeeeee;
-    color: #000000;
-    text-align: center
-}
-
 .ice {
-    /*background-image: url('icebackground.png');  */
+    background-image: url('Images/fantasy.png');
     background-repeat: no-repeat;
     background-size: 100%;
     height: 650px;
@@ -82,7 +63,8 @@ footer {
     position: absolute;
     top: 30%;
     left: 38%;
-    font-size: 180%;
+    font-size: 200%;
+    text-shadow: 4px 4px #8b0000;
 }
 
 .mid2 {
@@ -90,11 +72,21 @@ footer {
     position: absolute;
     top: 40%;
     left: 38%;
-    font-size: 180%;
+    font-size: 200%;
 }
 
-.icon {
-    /*background-image: url('github.png'); */
-    height: 60px;
-    background-repeat: no-repeat;
+#icons {
+    display: table;
+}
+
+#iconlinks {
+    list-style: none;
+    position: fixed;
+    bottom: 0;
+    right: 10;
+}
+
+
+.gitHub, .twitter, .email, {
+    width: 60%;
 }
