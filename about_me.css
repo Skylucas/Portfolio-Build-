@@ -7,18 +7,13 @@ body {
 }
 
 @media screen and (max-width: 500px) {
-    body {
-        .mid1
-        position: absolute;
-        top: 40%;
-        left: 38%;
+    /*body {*/
+
+    .mid-2 {
+        /*float: left;*/
+        width: 100%;
     }
-        {
-        .mid2
-        position: absolute;
-        top: 60%;
-        left: 38%;
-    }
+
 }
 
 nav {
@@ -75,13 +70,12 @@ nav img {
     background-image: url('Images/fantasy.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 800px;
-    position: relative;
+    width: 100%;
+    height: 100%;
 }
 
 .container2 {
     margin: 0 auto;
-    width: 800px;
     overflow: auto;
 }
 
@@ -90,9 +84,9 @@ nav img {
     color: #ffffff;
     opacity: 0.4;
     border-radius: 30px;
-    width: 50%;
+    width: 90%;
     float: left;
-    padding: 15px;
+    padding: 60px;
     font-size: 160%;
 }
 
