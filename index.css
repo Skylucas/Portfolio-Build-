@@ -8,7 +8,16 @@ body {
 
 @media screen and (max-width: 500px) {
     body {
-
+        .mid1
+        position: absolute;
+        top: 40%;
+        left: 38%;
+    }
+        {
+        .mid2
+        position: absolute;
+        top: 60%;
+        left: 38%;
     }
 }
 
@@ -31,7 +40,7 @@ nav {
     text-align: center;
     background-color: #8b0000;
     border-radius: 15px;
-    box-shadow: 0 9px #000000;
+    box-shadow: 0 9px #000;
     margin: 4px 2px;
     padding: 15px 15px;
 }
@@ -51,17 +60,18 @@ nav img {
     transform: translateY(4px);
 }
 
-.ice {
+.fantasy {
     background-image: url('Images/fantasy.png');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     height: 650px;
+    position: relative;
 }
 
 .mid1 {
     color: #000000;
     position: absolute;
-    top: 30%;
+    bottom: 60%;
     left: 38%;
     font-size: 200%;
     text-shadow: 4px 4px #8b0000;
@@ -72,7 +82,8 @@ nav img {
     position: absolute;
     top: 40%;
     left: 38%;
-    font-size: 200%;
+    font-size: 220%;
+    text-shadow: 4px 4px #8b0000;
 }
 
 #icons {
@@ -83,7 +94,7 @@ nav img {
     list-style: none;
     position: fixed;
     bottom: 0;
-    right: 10;
+    right: 10px;
 }
 
 
