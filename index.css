@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        .mid1
+        position: absolute;
+        top: 40%;
+        left: 38%;
+    }
+        {
+        .mid2
+        position: absolute;
+        top: 60%;
+        left: 38%;
+    }
+}
+
+nav {
+    background-color: #eff0f2;
+    height: 80px;
+    display: block;
+    padding: 0 15px;
+}
+
+.container {
+    float: right;
+    margin-top: 26px;
+
+}
+
+.container a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    background-color: #8b0000;
+    border-radius: 15px;
+    box-shadow: 0 9px #000;
+    margin: 4px 2px;
+    padding: 15px 15px;
+}
+
+nav img {
+    float: left;
+    padding-top: 10px;
+}
+
+.container a:hover {
+    background-color: #4b4c4f;
+}
+
+.container a:active {
+    background-color: #4b4c4f;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.fantasy {
+    background-image: url('Images/fantasy.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    position: relative;
+}
+
+.mid1 {
+    color: #000000;
+    position: absolute;
+    bottom: 60%;
+    left: 38%;
+    font-size: 200%;
+    text-shadow: 4px 4px #8b0000;
+}
+
+.mid2 {
+    color: #000000;
+    position: absolute;
+    top: 40%;
+    left: 38%;
+    font-size: 220%;
+    text-shadow: 4px 4px #8b0000;
+}
+
+#icons {
+    display: table;
+}
+
+#iconlinks {
+    list-style: none;
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+}
+
+
+.gitHub, .twitter, .email {
+    width: 60%;
+}
