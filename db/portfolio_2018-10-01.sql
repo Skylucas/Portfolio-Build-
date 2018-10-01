@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 5.6.41)
 # Database: portfolio
-# Generation Time: 2018-10-01 08:37:38 +0000
+# Generation Time: 2018-10-01 09:54:32 +0000
 # ************************************************************
 
 
@@ -20,6 +20,36 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 
+# Dump of table portfolio_input
+# ------------------------------------------------------------
+
+DROP TABLE IF EXISTS `portfolio_input`;
+
+CREATE TABLE `portfolio_input` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `project_name` varchar(1000) DEFAULT NULL,
+  `file_image_name` varchar(1000) DEFAULT NULL,
+  `url_location` varchar(1000) DEFAULT NULL,
+  `deleted` tinyint(1) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+LOCK TABLES `portfolio_input` WRITE;
+/*!40000 ALTER TABLE `portfolio_input` DISABLE KEYS */;
+
+INSERT INTO `portfolio_input` (`id`, `project_name`, `file_image_name`, `url_location`, `deleted`)
+VALUES
+	(1,'pilot shop','pilot shop','Pilot shop/pilotshop.html',NULL),
+	(2,'html + css img','test image','\'Images/testimage.png\'',NULL),
+	(3,'Project 3',NULL,NULL,NULL),
+	(4,'Project 4',NULL,NULL,NULL),
+	(5,'Project 5',NULL,NULL,NULL),
+	(6,'Project 6',NULL,NULL,NULL);
+
+/*!40000 ALTER TABLE `portfolio_input` ENABLE KEYS */;
+UNLOCK TABLES;
+
+
 # Dump of table about_content
 # ------------------------------------------------------------
 
@@ -27,35 +57,21 @@ DROP TABLE IF EXISTS `about_content`;
 
 CREATE TABLE `about_content` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
-  `project_name` varchar(255) DEFAULT NULL,
-  `file_image_name` varchar(255) DEFAULT NULL,
-  `url_location` varchar(255) DEFAULT NULL,
-  `deleted` tinyint(1) DEFAULT NULL,
+  `about_me_sections` varchar(1000) DEFAULT NULL,
+  `text` varchar(1000) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 LOCK TABLES `about_content` WRITE;
 /*!40000 ALTER TABLE `about_content` DISABLE KEYS */;
 
-INSERT INTO `about_content` (`id`, `project_name`, `file_image_name`, `url_location`, `deleted`)
+INSERT INTO `about_content` (`id`, `about_me_sections`, `text`)
 VALUES
-	(1,'about_me','0','0',1);
+	(1,'about me','My name is Dan and I am a Trainee Full Stack Developer at Mayden academy, my hobbies consist of playing video games, programming in my spare time and I have done a fair bit of boxing just to stay healthy but is also fun, as I am sitting down a lot usually on my computer. I enjoy making projects in a team as I have made my own rpg game as a indie game developer with a small team which was very enjoyable.'),
+	(3,'courses and plans ','The plan is to graduate as a Full Stack Developer from this course and get a job in this industry.');
 
 /*!40000 ALTER TABLE `about_content` ENABLE KEYS */;
 UNLOCK TABLES;
-
-
-# Dump of table input_text
-# ------------------------------------------------------------
-
-DROP TABLE IF EXISTS `input_text`;
-
-CREATE TABLE `input_text` (
-  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
-  `about_Me` varchar(1000) DEFAULT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
 
 
 
