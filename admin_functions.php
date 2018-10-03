@@ -1,4 +1,6 @@
 <?php
+
+
 /*
  * This function will select the about me sections and the text from the the about content table. Will then fetch the query and execute that query
  *
@@ -29,5 +31,3 @@ function fetchContent($key, $dbResults) {
             return 'Error incorrect input';
         }
 }
-
-//$portfolio_input = fetchUrls($db);

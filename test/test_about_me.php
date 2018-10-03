@@ -1,6 +1,6 @@
 <?php
 
-require('../admin.php');
+require_once('../admin_functions.php');
 
 use PHPUnit\Framework\TestCase;
 

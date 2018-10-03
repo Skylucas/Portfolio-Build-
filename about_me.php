@@ -1,4 +1,7 @@
 <?php
+
+require_once 'querys_admin.php';
+
 ?>
 
 <!DOCTYPE html>
@@ -13,8 +16,8 @@
     <img src="Images/ying_yang.png" />
     <section class="container">
         <a href="index.html">Home</a>
-        <a href="about_me.html">About Me</a>
-        <a href="portfolio.html">Portfolio</a>
+        <a href="about_me.php">About Me</a>
+        <a href="portfolio.php">Portfolio</a>
     </section>
 </nav>
 
@@ -22,19 +25,12 @@
     <div class="fantasy">
         <section class="container2">
             <article class="mid-2">
-                <h2>- About Me -</h2>
-                <p>My name is Dan and I am a Trainee Full Stack Developer at Mayden academy, my hobbies
-                    consist of playing video games, programming in my spare time and I have done a fair bit of
-                    boxing just to stay healthy but is also fun, as I am sitting down a lot usually on my
-                    computer. I enjoy making projects in a team as I have made my own rpg game as a indie
-                    game developer with a small team which was very enjoyable.
-                </p>
+                <h2><?php echo $title; ?></h2>
+                <p><?php echo $content; ?></p>
             </article>
             <article class="mid-2">
-                <h2>- Courses and plans -</h2>
-                <p>The plan is to graduate as a Full Stack Developer from this course and get a job in this
-                    industry.
-                </p>
+                <h2>-Courses and Plans-</h2>
+                <p>The plan is to graduate as a Full Stack Developer from this course and get a job in this industry. </p>
             </article>
         </section>
     </div>
