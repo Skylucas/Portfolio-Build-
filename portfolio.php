@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,8 +11,8 @@
         <img src="Images/ying_yang.png" />
         <section class="container">
             <a href="index.html">Home</a>
-            <a href="about_me.html">About Me</a>
-            <a href="portfolio.html">Portfolio</a>
+            <a href="about_me.php">About Me</a>
+            <a href="portfolio.php">Portfolio</a>
         </section>
     </nav>
 
