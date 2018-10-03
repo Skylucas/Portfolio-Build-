@@ -25,11 +25,11 @@ require_once 'querys_admin.php';
     <div class="fantasy">
         <section class="container2">
             <article class="mid-2">
-                <h2><?php echo $title; ?></h2>
+                <h2>- About Me -</h2>
                 <p><?php echo $content; ?></p>
             </article>
             <article class="mid-2">
-                <h2>-Courses and Plans-</h2>
+                <h2>- Courses and Plans -</h2>
                 <p>The plan is to graduate as a Full Stack Developer from this course and get a job in this industry. </p>
             </article>
         </section>
