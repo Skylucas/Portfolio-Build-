@@ -1,4 +1,8 @@
+<?php
 
+require_once 'portfolio_results.php';
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,35 +36,36 @@
         <div class="container3">
             <div class="col-4">
             </div>
-                <div class="project1">
-                </div>
-                <div>
-                    <h3>Title1</h3>
-                    <p>onec id elit non mi porta gravida at eget metus.</p>
-                </div>
-                <div class="project1">
-                </div>
-                <h3>Title2</h3>
-                <p>onec id elit non mi porta gravida at eget metus.</p>
-                <div class="project1">
-                </div>
-                    <h3>Title3</h3>
-                    <p>onec id elit non mi porta gravida at eget metus.</p>
-                <div class="project1">
-                </div>
-                    <h3>Title4</h3>
-                    <p>onec id elit non mi porta gravida at eget metus.</p>
-
-                <div class="project1">
-                </div>
-                    <h3>Title5</h3>
-                    <p>onec id elit non mi porta gravida at eget metu.</p>
-
-                <div class="project1">
-                </div>
-                    <h3>Title6</h3>
-                    <p>onec id elit non mi porta gravida at eget metus.</p>
-            </div>
+                    <?php echo $content; ?>
+<!--                <div class="project1">-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    <h3>Title1</h3>-->
+<!--                    <p>onec id elit non mi porta gravida at eget metus.</p>-->
+<!--                </div>-->
+<!--                <div class="project1">-->
+<!--                </div>-->
+<!--                <h3>Title2</h3>-->
+<!--                <p>onec id elit non mi porta gravida at eget metus.</p>-->
+<!--                <div class="project1">-->
+<!--                </div>-->
+<!--                    <h3>Title3</h3>-->
+<!--                    <p>onec id elit non mi porta gravida at eget metus.</p>-->
+<!--                <div class="project1">-->
+<!--                </div>-->
+<!--                    <h3>Title4</h3>-->
+<!--                    <p>onec id elit non mi porta gravida at eget metus.</p>-->
+<!---->
+<!--                <div class="project1">-->
+<!--                </div>-->
+<!--                    <h3>Title5</h3>-->
+<!--                    <p>onec id elit non mi porta gravida at eget metu.</p>-->
+<!---->
+<!--                <div class="project1">-->
+<!--                </div>-->
+<!--                    <h3>Title6</h3>-->
+<!--                    <p>onec id elit non mi porta gravida at eget metus.</p>-->
+<!--            </div>-->
         </div>
     </main>
 

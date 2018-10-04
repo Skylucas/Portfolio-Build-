@@ -141,8 +141,7 @@ nav img {
     padding-right: 20px;
 }
 
-.project1 {
-    background-image: url('Images/testimage.png');
+.project {
     background-repeat: no-repeat;
     background-size: auto;
     height: 350px;
