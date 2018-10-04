@@ -1,7 +1,6 @@
 <?php
 
 require_once 'querys_admin.php';
-require_once 'database_form.php';
 
 ?>
 
@@ -36,6 +35,7 @@ require_once 'database_form.php';
         </section>
     </div>
 </main>
+<a href="edit_form.php">Edit Here</a>
 
 <div>
     <div class="icons_menu">
