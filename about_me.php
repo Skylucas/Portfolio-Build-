@@ -1,6 +1,7 @@
 <?php
 
 require_once 'querys_admin.php';
+require_once 'database_form.php';
 
 ?>
 
@@ -15,7 +16,7 @@ require_once 'querys_admin.php';
 <nav>
     <img src="Images/ying_yang.png" />
     <section class="container">
-        <a href="index.html">Home</a>
+        <a href="index.php">Home</a>
         <a href="about_me.php">About Me</a>
         <a href="portfolio.php">Portfolio</a>
     </section>
