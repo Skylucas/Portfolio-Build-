@@ -25,7 +25,7 @@ function fetchInput(pdo $db) : array {
  * @return string this will return the string 'Error incorrect input'
  */
 function fetchContent($key, $dbResults) : string {
-        if(array_key_exists($key, $dbResults)){
+        if(array_key_exists($key, $dbResults) ) {
             return $dbResults['text'];
         } else {
             return 'Error incorrect input';

@@ -25,10 +25,11 @@ function portfolioOutput(pdo $db) : array {
  */
 function displayPortfolio($portfolioResults) :string {
     $result = '';
-    foreach ($portfolioResults as $portfolioResult){
+    foreach ($portfolioResults as $portfolioResult) {
         if (array_key_exists('project_name',$portfolioResult) &&
-            array_key_exists('file_image_name', $portfolioResult)&&
-            array_key_exists('url_location', $portfolioResult)){
+            array_key_exists('file_image_name', $portfolioResult) &&
+            array_key_exists('url_location', $portfolioResult)
+        ) {
 
             $image_url = $portfolioResult["file_image_name"];
             $result .= '<div class="project" style="background-image: url(' . $image_url . ');">
@@ -37,7 +38,7 @@ function displayPortfolio($portfolioResults) :string {
                     <h3>' . $portfolioResult['project_name'] . '</h3>
                     <p>onec id elit non mi porta gravida at eget metus.</p>
                 </div>';
-        }else{
+        } else {
             return "Error with input";
         }
     }
