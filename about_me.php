@@ -15,7 +15,7 @@ require_once 'querys_admin.php';
 <nav>
     <img src="Images/ying_yang.png" />
     <section class="container">
-        <a href="index.html">Home</a>
+        <a href="index.php">Home</a>
         <a href="about_me.php">About Me</a>
         <a href="portfolio.php">Portfolio</a>
     </section>
@@ -35,6 +35,7 @@ require_once 'querys_admin.php';
         </section>
     </div>
 </main>
+<a href="edit_form.php">Edit Here</a>
 
 <div>
     <div class="icons_menu">
