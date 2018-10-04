@@ -13,7 +13,7 @@ require_once 'dbConn.php';
  *
  * @return string otherwise with return with 'error incorrect input'
  */
-function pullData($db, $content)
+function UpdateAboutContent($db, $content)
 {
     if (is_string($content)) {
         $query = $db->prepare("UPDATE `about_content` SET `about_content`.`text`=:text WHERE `about_content`.`id` = '1';");
