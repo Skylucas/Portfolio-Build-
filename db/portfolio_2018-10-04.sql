@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 5.6.41)
 # Database: portfolio
-# Generation Time: 2018-10-03 10:29:00 +0000
+# Generation Time: 2018-10-04 13:05:04 +0000
 # ************************************************************
 
 
@@ -37,7 +37,7 @@ LOCK TABLES `about_content` WRITE;
 
 INSERT INTO `about_content` (`id`, `about_me_sections`, `text`)
 VALUES
-	(1,'about me','My name is Dan and I am a Trainee Full Stack Developer at Mayden academy, my hobbies\n                    consist of playing video games, programming in my spare time and I have done a fair bit of\n                    boxing just to stay healthy but is also fun, as I am sitting down a lot usually on my\n                    computer. I enjoy making projects in a team as I have made my own rpg game as a indie\n                    game developer with a small team which was very enjoyable.');
+	(1,'about me','My name is Dan and I am a Trainee Full Stack Developer at Mayden academy, my hobbies                    consist of playing video games, programming in my spare time and I have done a fair bit of                    boxing just to stay healthy but is also fun, as I am sitting down a lot usually on my                    computer. I enjoy making projects in a team as I have made my own rpg game as a indie                    game developer with a small team which was very enjoyable');
 
 /*!40000 ALTER TABLE `about_content` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -62,12 +62,12 @@ LOCK TABLES `portfolio_input` WRITE;
 
 INSERT INTO `portfolio_input` (`id`, `project_name`, `file_image_name`, `url_location`, `deleted`)
 VALUES
-	(1,'pilot shop','pilot shop','Pilot shop/pilotshop.html',NULL),
-	(2,'html + css img','test image','\'Images/testimage.png\'',NULL),
-	(3,'Project 3',NULL,NULL,NULL),
-	(4,'Project 4',NULL,NULL,NULL),
-	(5,'Project 5',NULL,NULL,NULL),
-	(6,'Project 6',NULL,NULL,NULL);
+	(1,'Project 1','Images/testimage.png','www.google.com',NULL),
+	(2,'html + css img','Images/testimage.png','www.google.com',NULL),
+	(3,'Project 3','Images/testimage.png','www.google.com',NULL),
+	(4,'Project 4','Images/testimage.png','www.google.com',NULL),
+	(5,'Project 5','Images/testimage.png','www.google.com',NULL),
+	(6,'Project 6','Images/testimage.png','www.google.com',NULL);
 
 /*!40000 ALTER TABLE `portfolio_input` ENABLE KEYS */;
 UNLOCK TABLES;

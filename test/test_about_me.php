@@ -17,7 +17,22 @@ class admin extends TestCase {
     public function testfetchContentFailures() {
         $expected = "Error incorrect input";
         $testarray = ["text"=>"My name is Dan and I am a Trainee Full Stack Developer"];
-        $case = fetchContent('poop', $testarray);
+        $case = fetchContent('loop', $testarray);
+        $this->assertEquals($case, $expected);
+    }
+
+    public function testfetchContentInputSuccess() {
+        $expected ="Yeep";
+        $testarray = ["text"=>"Yeep"];
+        $case = fetchContent($testarray);
+        $this->assertEquals($case, $expected);
+    }
+
+    public function testfetchContentInputFailures() {
+        $expected = "Error incorrect input";
+        $testarray = ["text"=>"Yeep"];
+        $case = fetchContent('noot', $testarray);
         $this->assertEquals($case, $expected);
     }
 }
+
